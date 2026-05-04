@@ -28,7 +28,7 @@ def tambah_barang():
 
 
 def tampilkan_barang():
-    print("\n=== DATA BARANG ===")
+    print("DATA BARANG")
     for i, barang in enumerate(data_barang):
         print(f"{i}. {barang['nama']} | {barang['jenis']} | Stok: {barang['stok']}")
     print()
@@ -121,7 +121,7 @@ def cari_barang():
 
 
 while True:
-    print("=== MENU INVENTORY ===")
+    print("MENU INVENTORY")
     print("1. Tambah Barang")
     print("2. Tampilkan Barang")
     print("3. Cari Barang (Linear vs Binary)")
